@@ -209,7 +209,7 @@ export default function AnswerAnalysis() {
 
           {/* Error & Analysis Results */}
           {error && <div className="mt-4 p-4 bg-red-50 text-red-600 rounded">{error}</div>}
-          {analysis && <div className="mt-6"><h3 className="text-xl font-semibold">Analysis Results</h3><div className="bg-gray-50 p-6 rounded">{renderAnalysis(analysis)}</div></div>}
+          {analysis && <div className="mt-6"><h3 className="text-xl font-semibold">Analysis Results</h3><div className=" dark:bg-white bg-gray-50 p-6 rounded">{renderAnalysis(analysis)}</div></div>}
         </CardContent>
       </Card>
     </div>
